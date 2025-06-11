@@ -88,7 +88,7 @@ python -m torch.distributed.launch --nproc_per_node=3 train.py \
 3. Train with a custom dataset:
 
 ```bash
-python train.py --data_dir dataset_path --val_dir validation_path --epochs 40
+python train.py --data_dir dataset_path --val_dir validation_path --epochs 100
 ```
 
 4. Resume training:
